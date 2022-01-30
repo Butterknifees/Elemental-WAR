@@ -1,7 +1,7 @@
 # Elemental-WAR
 Developed for Game Dev Hackathon
 
-Your goal is to score as many points as you can.
+Your goal is to score as many points as you can./n
 Points can be scored by killing enemy, collecting coins and power-ups.
 Avoid touching the enemy aur it's projectile, as getting hit will result in Game Over!!
 Powerup grants you with a projectile that can be used once. On getting hit by the projectile the enemy will die,

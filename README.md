@@ -12,9 +12,13 @@ As your score increases, the game difficulty will increase,i.e., attacks of the 
 and also enemies will run faster.
 
 Basic Controls:
-Up arrow key--> jump,
-Left arrow key--> move Left,
-Right arrow key--> move Right,
+
+Up arrow key--> jump
+
+Left arrow key--> move Left
+
+Right arrow key--> move Right
+
 Down arrow key--> Attack/Sp. attack
 
 

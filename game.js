@@ -71,7 +71,7 @@ function create() {
     fireball.body.setAllowGravity(false);
 
     //creating waterball for enemy
-    waterball = this.physics.add.image(850, 182, 'blueball').setAlpha(0.6).setScale(0.4);
+    waterball = this.physics.add.image(850, 182, 'blueball').setAlpha(0.6).setScale(0.3);
     waterball.body.setAllowGravity(false);
 
     //creating group for powerup object
@@ -286,7 +286,7 @@ function update() {
         villian.anims.play('villian_left', true);
     }
 
-    //maiking sure that the villian never becomes static
+    //making sure that the villian never becomes static
     if (villian.body.velocity.x == 0) {
         villian.setVelocityX(150);
     }
@@ -355,7 +355,7 @@ function update() {
         }
     }
 
-    //spawning of villain in a random postion after kill
+    //killing hero or villian based on if attack key is held
     if (collision_p_v) {
         if (cursors.down.isDown && player.body.touching.down) {
             var random = Phaser.Math.Between(70, 730);
@@ -374,7 +374,7 @@ function update() {
         }
     }
 
-    //adding difficulty to the game by increasing speed of the villain and waterball
+    //adding difficulty to the game by increasing speed of the villian and waterball
     if (score >= 2000 && score < 3000) {
         factor = 1.2;
     } else if (score >= 3000 && score < 4000) {

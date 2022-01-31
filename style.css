@@ -1,0 +1,11 @@
+canvas{
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+body{
+    background-image: url('background.jpg');
+}
+h1{
+    text-align: center;
+}

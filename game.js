@@ -233,7 +233,7 @@ function create() {
         player.setTint(0xff0000);
         villian.setTint(0x0000FF);
         player.anims.stop(true);
-        alert("game over");
+        alert("GAME OVER !!");
         collision_p_v = false;
     }
 }
@@ -369,7 +369,7 @@ function update() {
             player.setTint(0xff0000);
             player.anims.play('hero_idle_', true);
             villian.setTint(0x0000FF);
-            alert("game over " + score);
+            alert("GAME OVER !!");
             collision_p_v = false;
         }
     }

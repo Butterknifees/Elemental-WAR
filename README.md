@@ -20,4 +20,6 @@ Right arrow key--> move Right
 
 Down arrow key--> Attack/Sp. attack
 
+The game is hosted at: https://butterknifees.github.io/Elemental-WAR/
+
 

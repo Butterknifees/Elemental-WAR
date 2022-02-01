@@ -234,6 +234,7 @@ function create() {
         villian.setTint(0x0000FF);
         player.anims.stop(true);
         alert("GAME OVER !!");
+        window.location.href="index.html";
         collision_p_v = false;
     }
 }
@@ -370,6 +371,7 @@ function update() {
             player.anims.play('hero_idle_', true);
             villian.setTint(0x0000FF);
             alert("GAME OVER !!");
+            window.location.href="index.html";
             collision_p_v = false;
         }
     }

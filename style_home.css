@@ -1,0 +1,303 @@
+body {
+    background-image: url("background.jpg");
+    text-align: center;
+    font-family: 'Aclonica';
+}
+
+.controls {
+    display: none;
+    text-align: left;
+    margin: auto;
+    height: 700px;
+    width: 1200px;
+    position: absolute;
+    z-index: 20;
+    left: 10%;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.info {
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    height: 250px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    left: 10%;
+    opacity: 98%;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.about_us {
+    display: none;
+    text-align: left;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 700px;
+    width: 1400px;
+    position: absolute;
+    z-index: 50;
+}
+
+button.control_button {
+    background: url("assets_main/controls1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: orange;
+    border: 5px solid darkred;
+    border-radius: 15px;
+    margin-top: 50px;
+    box-shadow: 0 12px 16px 0 darkred, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    width: 500px;
+    height: 70px;
+    transition-duration: 0.4s;
+}
+
+button.control_button:hover {
+    background-image: url("assets_main/controls2.png");
+    background-repeat: no-repeat;
+    background-color: lightskyblue;
+    border-color: darkblue;
+    box-shadow: 0 12px 16px 0 darkblue, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button.control_button:active+.controls {
+    background-color: orange;
+    border: 4px solid darkred;
+    border-radius: 16px;
+    display: block;
+    top: 3%;
+    margin: auto;
+}
+
+h3 {
+    line-height: 8px;
+    font-family: 'Aclonica';
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+.start_game {
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 300;
+    color: #c7365f;
+    margin-bottom: auto;
+}
+
+img {
+    border: 4px solid gray;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img.hero {
+    border: 4px solid darkred;
+}
+
+img.villian {
+    border: 4px solid darkblue;
+}
+
+img.power_image {
+    border: none;
+    margin-top: -8px;
+}
+
+img.run {
+    margin-top: 1px;
+}
+
+img.jump_image {
+    margin-top: 15px;
+}
+
+img.attack_image {
+    margin-top: 15px;
+}
+
+img.logo_img {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.Start {
+    background: url("assets_main/play1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: orange;
+    border: 5px solid darkred;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 0 12px 16px 0 darkred, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    width: 500px;
+    height: 70px;
+    transition-duration: 0.4s;
+}
+
+button.Start:hover {
+    background-image: url("assets_main/play2.png");
+    background-repeat: no-repeat;
+    background-color: lightskyblue;
+    border-color: darkblue;
+    box-shadow: 0 12px 16px 0 darkblue, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button.about {
+    background: url("assets_main/about1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: orange;
+    border: 5px solid darkred;
+    margin-top: 90px;
+    border-radius: 15px;
+    box-shadow: 0 12px 16px 0 darkred, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    width: 500px;
+    height: 70px;
+    transition-duration: 0.4s;
+}
+
+button.about:hover {
+    background-image: url("assets_main/about2.png");
+    background-repeat: no-repeat;
+    background-color: lightskyblue;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 12px 16px 0 darkblue, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button.about:active+.about_us {
+    background-color: black;
+    border: 4px solid grey;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    top: 5%;
+    margin: auto;
+    color: white;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    text-align: center;
+}
+
+.attack {
+    background-color: lightskyblue;
+    border: 4px solid darkblue;
+    height: 290px;
+    border-radius: 16px;
+    flex: 1 1 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: darkblue;
+    margin-bottom: auto;
+}
+
+.run_left {
+    background-color: lightskyblue;
+    border: 4px solid darkblue;
+    height: 290px;
+    border-radius: 16px;
+    flex: 1 1 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: darkblue;
+    margin-bottom: auto;
+}
+
+.jump {
+    background-color: lightskyblue;
+    border: 4px solid darkblue;
+    height: 290px;
+    border-radius: 16px;
+    flex: 1 1 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: darkblue;
+    margin-bottom: auto;
+}
+
+.powerup {
+    background-color: lightskyblue;
+    border: 4px solid darkblue;
+    border-radius: 16px;
+    height: 290px;
+    flex: 1 1 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: darkblue;
+    margin-bottom: auto;
+}
+
+.idle {
+    background-color: orange;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 5px solid;
+    border-color: darkred;
+    font-family: "lucida console", monospace;
+    float: left;
+    margin-left: 80px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: darkred;
+}
+
+.villain_idle {
+    background-color: lightskyblue;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: darkblue;
+    margin-top: 100px;
+    margin-right: 80px;
+    float: right;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: darkblue;
+}
+
+.rules {
+    background-color: lightskyblue;
+    border: 5px solid darkblue;
+    border-radius: 10px;
+    margin-top: 70px;
+    height: 320px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: darkblue;
+}
